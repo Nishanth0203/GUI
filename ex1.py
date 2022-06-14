@@ -78,3 +78,5 @@ strng='CREATE TABLE student(regno char(10),name varchar(40), dept char(7),gender
 curs.execute(strng)
 
 mainloop()
+
+#edited one
