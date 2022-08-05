@@ -80,3 +80,12 @@ curs.execute(strng)
 mainloop()
 
 #edited one
+#radio=INTVAR()
+#gender=""
+#def select():
+#if(radio.get()==1):
+#gender="male"
+#else
+#gender="female"
+#
+#

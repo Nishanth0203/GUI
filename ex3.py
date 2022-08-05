@@ -38,6 +38,9 @@ rb2.grid(row=4,column=3)
 spin=Spinbox(root,from_=0,to=30)
 spin.grid(row=5,column=2)
 
+slide=Scale(root,from_=1, to=50, orient=HORIZONTAL)
+slide.grid(row=8,column=1)
+
 def insert():
     strng="Insert into Employee values(?,?,?,?,?)"
     curs.execute(strng,(e1.get(),e2.get(),e3.get(),Employeetype,spin.get()))

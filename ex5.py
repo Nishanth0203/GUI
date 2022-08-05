@@ -68,6 +68,12 @@ b2.grid(row=6,column=2)
 b3.grid(row=7,column=1)
 b4.grid(row=7,column=2)
 
+conn=sqlite3.connect("ex5.db")
+curs=conn.cursor()
+
+strng=("(CREATE TABLE student(regno char(10),name varchar(40), dept char(7),gender char(7),age int)")
+conn.commit()
+
 mainloop()
 
 #ok this is being edited .....
